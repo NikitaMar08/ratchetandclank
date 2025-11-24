@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="assets/r&c_icon.png">
+    <link rel = 'stylesheet' href = 'css/index.css'>
+    <script src="js/index.js" defer></script>
+    <title>Рэтчет и Кланк</title>
+  </head>
+  <body>
+    <header>
+      <div class = "title">
+        <div id = "night_day">
+          <img class = "background_theme_night" src="assets/lune.png">
+        </div>
+        <h1 id = "up">Ratchet & Clank</h1>
+      </div>
+    </header>
+    <main>
+      <nav>
+        <hr>
+        <h2>Навигатор</h2>
+        <ol>
+          <li><a href = "#what">Что это за игра?</a></li>
+          <li><a href = "#gmplay">Геймплей</a></li>
+          <li><a href = "#chrtcs">Персонажи</a></li>
+        </ol>
+      </nav>
+      <div class = "whatsgame">
+        <hr>
+        <h2 id = "what">Что это за игра?</h2>
+        <div class = whatsgame-images>
+           <img class = "randcwhatimg1" src = "assets/r&c1.jpg">
+           <img class = "randcwhatimg2" src = "assets/r&cra.jpg">
+        </div>
+        <p class = "whatsgame-text"><span class = "important">Ratchet & Clank</span> — серия игр жанра платформер, разработанная
+          компанией Insomniac Games эксклюзивно для приставок
+          Sony PlayStation. Включает как первую игру — Ratchet & Clank (2002), 
+          так и последнюю — Ratchet & Clank: Rift Apart (2021).
+          Игры повествуют о космических приключениях двух героев: 
+          Рэтчета — одного из последних представителей расы Ломбакс 
+          во Вселенной, и Кланка — маленького робота и напарника Рэтчета.</p>
+      </div>
+
+      <div class = "gameplay">
+        <hr>
+        <h2 id = "gmplay">Геймплей</h2>
+        <div class = "gameplay-images">
+          <img class = "randcgameimg1" src = "assets/r&cg1.jpg" alt = "Ratchet and Clank: Rift apart">
+          <img class = "randcgameimg2" src = "assets/r&cg2.jpg">
+        </div>
+        <p class = "gameplay-text">Игровой процесс условно можно разделить на две половины: 
+          платформер с прыжками и преодолением препятствий и экшен 
+          с толпами врагов. Некоторые особенности:</p>
+        <ul>
+          <li>Платформенная часть — поиск и применение разных гаджетов: 
+            энергетического лассо, ракетных ранцев, магнитных ботинок 
+            (позволяют ходить по некоторым вертикальным поверхностям).</li>
+          <li>Боевая механика — противники заставляют переходить 
+            с дальнего боя на рукопашные драки, жонглировать 
+            разными видами оружия, подбирая подходящую под ситуацию пушку.</li>
+          <li>Мини-игры — гонки или головоломки, которые игрок должен 
+            выполнять по мере прохождения.</li>
+        </ul>
+      </div>
+
+      <div class = "chart">
+        <hr>
+      <h2 id = "chrtcs">Персонажи</h2>
+      </div>
+      <div class = "characters">
+        <div class = "ratchet">
+          <div id = "ratchet_curr_img">
+            <img class = "ratchet_img1" src = "assets/Ratchet1.png">
+          </div>    
+          <p><span class = "important">Рэтчет</span> (англ. Ratchet) — главный герой франшизы «Ratchet & Clank», 
+          <br>являющийся основным играбельным персонажем большей части игр серии. 
+          <br>Будучи межгалактическим героем и механиком кораблей, Рэтчет также 
+          <br>является последним известным представителем расы Ломбакс в своей 
+          <br>Вселенной. Характер Рэтчета можно описать как упрямый, жаждущий 
+          <br>острых ощущений, проявляет храбрость и любит бросать вызов. 
+          <br>У него беззаботный характер, он часто отпускает остроты и 
+          <br>поднимает настроение шутками.</p>
+          <button id = "ratchet_chgimg">Другая фотография</button>
+        </div>
+        <div class = "clank">
+          <div id = "clank_curr_img">
+            <img class = "clank_img1" src = "assets/Clank1.png">
+          </div>
+          <p><span class = "important">Кланк</span> (англ. Clank) — 
+            <br>маленький робот, напарник Рэтчета. Обычно крепится к спине 
+            <br>Рэтчета. Кланк рациональный, умный и лояльный. Он всегда 
+            <br>имеет знания, которыми быстро делится с Рэтчетом, и обычно 
+            <br>балансирует и сдерживает импульсивные тенденции главного героя.</p>
+            <button id = "clank_chgimg">Другая фотография</button>
+        </div>
+        <div class = "qwark">
+          <div id = "qwark_curr_img">
+            <img class = "qwark_img1" src = "assets/qwark.png">
+          </div>
+          <p><span class = "important">Капитан Кварк</span> (англ. Captain Qwark) — персонаж серии игр Ratchet & Clank. 
+            <br>Обычно он играет второстепенную роль, но присутствует почти 
+            <br>во всех играх. Главная отличительная черта характера Кварка 
+            <br>(полное имя — <span class = "important">Коперникус Лесли Кварк</span>) — самовлюблённость. Ради того, чтобы 
+            <br>быть популярным и жить в роскоши, супергерой готов пойти даже 
+            <br>на самые злодейские поступки.</p>
+            <button id = "qwark_chgimg">Другая фотография</button>
+        </div>
+        <div class = "nefarious">
+          <div id = "nefarious_curr_img">
+            <img class = "nefarious_img1" src = "assets/nefarius.png">
+          </div>
+          <p><span class = "important">Доктор Нефариус</span> (англ. Dr. Nefarious) —  безумный робот-учёный 
+            <br>и суперзлодей. Безумен, но гениален. Жаждет обрести абсолютную власть, 
+            <br>для достижения целей готов уничтожить любого на своём пути. 
+            <br>Предпочитает презентации и драматический талант, что заставляет его неистово смеяться 
+            <br>над собственными злыми поступками.</p>
+            <button id = "nefarious_chgimg">Другая фотография</button>
+        </div>
+        <div class = "rivet">
+          <div id = "rivet_curr_img">
+            <img class = "rivet_img1" src = "assets/rivet.png">
+          </div> 
+          <p><span class = "important">Ривет</span> (Rivet) — персонаж игры Ratchet & Clank: Rift 
+            <br>Apart, межпространственный аналог Рэтчета. Ривет не растеряла оптимизма, 
+            <br>несмотря на все пережитые испытания. Несмотря на суровый внешний вид и 
+            <br>кажущуюся отстранённость, она не бывает циничной, злой или жестокой. 
+            <br>Часто жертвует своей безопасностью и комфортом, чтобы защитить 
+            <br>других. Например, добровольно подвергла себя опасности, отдав свой маскировочный 
+            <br>костюм гражданскому лицу в Гнусном Городе.Страдает от ПТСР из-за потери руки и 
+            <br>прошлых неудач, с подозрением относится ко всем, кого встречает, как к потенциальной угрозе.</p>
+            <button id = "rivet_chgimg">Другая фотография</button>
+        </div>
+      </div>
+      <div class="go_up">
+        <a href = #up>НАВЕРХ</a>
+      </div>
+    </main>
+    <footer>
+      <h3>Ссылки</h3> 
+      <div class = "social_media">
+        <a href = "https://vk.com/insomniacgames?from=groups">
+          <img id = "vk_logo" src = "assets/vk.png"></a>
+        <a href = "http://www.youtube.com/@insomniacgames">
+          <img id = "youtube_logo" src = "assets/youtube.png">
+        </a>
+      </div>
+      
+      <div class = "author_link">
+        <a href = "https://vk.com/nikmar2008">Автор сайта</a>
+      </div>
+    </footer>
+  </body>
+</html>
